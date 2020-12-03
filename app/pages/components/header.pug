@@ -1,0 +1,29 @@
+.header
+    .container
+        .logo
+            img(class='logo__img' src='img/logo.png')
+        nav.navigation
+            button.navigation__button
+                svg(class="icon navigation__icon" width="32" height="32")
+                    use(class="navigation__icon-cross" href="img/sprite.svg#cross")
+                    use(class="navigation__icon-menu" href="img/sprite.svg#menu")
+            ul.navigation__list
+                li.navigation__item
+                    a(class='navigation__link' href='#')='Каталог'
+                li.navigation__item
+                    a(class='navigation__link' href='#')='Доставка и оплата'
+                li.navigation__item
+                    a(class='navigation__link' href='#')='О компании'
+        .user
+            .user__search
+                svg(class="icon" width="32" height="32")
+                    use(class="navigation__icon-menu" href="img/sprite.svg#search")
+            .user__enter
+                svg(class="icon" width="32" height="32")
+                    use(class="navigation__icon-menu" href="img/sprite.svg#exit")
+            .user__card
+                svg(class="icon" width="32" height="32")
+                    use(class="navigation__icon-menu" href="img/sprite.svg#card")
+        .tel
+            p(class="tel__paragraph")='С 10 до 20, ежедневно'
+            p(class="tel__paragraph")='8 812 450-25-25'
