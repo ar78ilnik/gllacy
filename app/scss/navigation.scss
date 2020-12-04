@@ -1,0 +1,23 @@
+.navigation {
+    &__button {
+        display: block;
+        margin: 0;
+        padding: 0;
+        border: none;
+        background-color: transparent;
+    }
+    &__list {
+        display: none;
+        &_open {
+            display: grid;
+        }
+    }
+    &__link {
+        display: block;
+        font-size: 100%;
+        color: var(--white);
+        padding: 10px;
+        border-bottom: 1px solid grey;
+        text-decoration: none;
+    }
+}

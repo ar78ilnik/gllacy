@@ -1,13 +1,13 @@
 .header
     .container
-        .logo
+        a(class="logo" href="#")
             img(class='logo__img' src='img/logo.png')
         nav.navigation
-            button.navigation__button
-                svg(class="icon navigation__icon" width="32" height="32")
-                    use(class="navigation__icon-cross" href="img/sprite.svg#cross")
-                    use(class="navigation__icon-menu" href="img/sprite.svg#menu")
-            ul.navigation__list
+            button(class="navigation__button navigation__button_open" aria-expanded="false" aria-controls="menu__list")
+                svg(class="icon icon_navigation" aria-hidden="true" width="32" height="32")
+                    use(class="icon__cross" href="img/sprite.svg#cross")
+                    use(class="icon__menu" href="img/sprite.svg#menu")
+            ul(class="navigation__list navigation__list_open" id="menu__list")
                 li.navigation__item
                     a(class='navigation__link' href='#')='Каталог'
                 li.navigation__item

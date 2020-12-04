@@ -1,0 +1,11 @@
+    icon__cross,
+    navigation__button_open .icon__menu {
+        display: block;
+    }
+    icon__menu,
+    navigation__button_open .icon__cross {
+        display: none;
+    }
+    icon_navigation {
+        stroke: var(--black);
+    }
