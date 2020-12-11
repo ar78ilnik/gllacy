@@ -1,11 +1,12 @@
-    icon__cross,
-    navigation__button_open .icon__menu {
-        display: block;
-    }
-    icon__menu,
-    navigation__button_open .icon__cross {
+    .icon_navigation {
+        stroke: var(--black);
+    }    
+
+    .icon__cross,
+    .button_navigation-open .icon__menu {
         display: none;
     }
-    icon_navigation {
-        stroke: var(--black);
+    .icon__menu,
+    .button_navigation-open .icon__cross {
+        display: block;
     }

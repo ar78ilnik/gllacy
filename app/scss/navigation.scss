@@ -1,15 +1,9 @@
 .navigation {
-    &__button {
-        display: block;
-        margin: 0;
-        padding: 0;
-        border: none;
-        background-color: transparent;
-    }
+    list-style: none;
     &__list {
         display: none;
         &_open {
-            display: grid;
+            display: block;
         }
     }
     &__link {

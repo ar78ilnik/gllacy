@@ -1,13 +1,12 @@
 .header
-    .container
-        a(class="logo" href="#")
-            img(class='logo__img' src='img/logo.png')
+    div(class="container container_header")
+        a(class="logo" href="#")='Languages'
         nav.navigation
-            button(class="navigation__button navigation__button_open" aria-expanded="false" aria-controls="menu__list")
+            button(class="button button_navigation button_navigation-open" aria-expanded="false" aria-controls="menu__list")
                 svg(class="icon icon_navigation" aria-hidden="true" width="32" height="32")
                     use(class="icon__cross" href="img/sprite.svg#cross")
                     use(class="icon__menu" href="img/sprite.svg#menu")
-            ul(class="navigation__list navigation__list_open" id="menu__list")
+            ul(class="navigation navigation__list navigation__list_open" id="menu__list")
                 li.navigation__item
                     a(class='navigation__link' href='#')='Каталог'
                 li.navigation__item
@@ -24,6 +23,3 @@
             .user__card
                 svg(class="icon" width="32" height="32")
                     use(class="navigation__icon-menu" href="img/sprite.svg#card")
-        .tel
-            p(class="tel__paragraph")='С 10 до 20, ежедневно'
-            p(class="tel__paragraph")='8 812 450-25-25'

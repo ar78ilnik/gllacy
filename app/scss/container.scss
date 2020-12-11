@@ -1,0 +1,7 @@
+.container {
+    &_header {
+        display: grid;
+        grid-template-areas:
+            "logo user";
+    }
+}
