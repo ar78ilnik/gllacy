@@ -1,7 +1,11 @@
 .container {
-    &_header {
-        display: grid;
-        grid-template-areas:
-            "logo user";
+    width: 290px;
+    margin: 0 auto;
+
+    &_logo {
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }

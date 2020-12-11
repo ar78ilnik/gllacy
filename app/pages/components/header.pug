@@ -1,18 +1,17 @@
 .header
     div(class="container container_header")
-        a(class="logo" href="#")='Languages'
-        nav.navigation
+        div(class="container container_logo")
+            a(class="logo" href="#")='Languages'
             button(class="button button_navigation button_navigation-open" aria-expanded="false" aria-controls="menu__list")
                 svg(class="icon icon_navigation" aria-hidden="true" width="32" height="32")
                     use(class="icon__cross" href="img/sprite.svg#cross")
                     use(class="icon__menu" href="img/sprite.svg#menu")
+        nav.navigation
             ul(class="navigation navigation__list navigation__list_open" id="menu__list")
                 li.navigation__item
-                    a(class='navigation__link' href='#')='Каталог'
+                    a(class='navigation__link' href='#')='Обо мне'
                 li.navigation__item
-                    a(class='navigation__link' href='#')='Доставка и оплата'
-                li.navigation__item
-                    a(class='navigation__link' href='#')='О компании'
+                    a(class='navigation__link' href='#')='Курсы и лекции'
         .user
             .user__search
                 svg(class="icon" width="32" height="32")
